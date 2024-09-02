@@ -29,7 +29,7 @@ func main() {
 	httpPostUrl := "https://nggtk.ru/api/v2/GetScheduleGroup/?vk_access_token_settings=&vk_app_id=7688110&vk_are_notifications_enabled=0&vk_is_app_user=1&vk_is_favorite=1&vk_language=ru&vk_platform=desktop_web&vk_ref=catalog_recent&vk_testing_group_id=3&vk_ts=1715447998&vk_user_id=491552018&sign=jHrws9PeP528Ijpeo8IEv5mVtqOB7j-kbnmyO_64bAo"
 	//fmt.Println("URL:", httpPostUrl)
 
-	res, err := http.PostForm(httpPostUrl, url.Values{"group": {"17"}})
+	res, err := http.PostForm(httpPostUrl, url.Values{"group": {"27"}})
 
 	if err != nil {
 		panic(err)
